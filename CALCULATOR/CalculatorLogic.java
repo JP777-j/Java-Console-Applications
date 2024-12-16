@@ -18,7 +18,7 @@ private static double divide(double a,double b){
     public void start() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the first number:");
-        double result = scanner.nextDouble(); // Initialize with the first number
+        double result = scanner.nextDouble();
         
         while (true) {
             System.out.println("Current result: " + result);
